@@ -1,0 +1,44 @@
+!SESSION 2024-08-16 23:40:32.848 -----------------------------------------------
+eclipse.buildId=4.24.0.202407191504
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/prabhatchaurasiya/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/prabhatchaurasiya/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-08-16 23:40:33.954
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-08-16 23:40:48.116
+!MESSAGE Logback config file: /Users/prabhatchaurasiya/DSA_Pratice/DSA/src/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-08-16 23:40:48.258
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-08-16 23:40:48.258
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-08-16 23:40:48.419
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-08-16 23:40:48.419
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-16 23:42:16.616
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-16 23:42:16.616
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-16 23:42:16.616
+!MESSAGE /Users/prabhatchaurasiya/DSA_Pratice/DSA overlaps the workspace location: /Users/prabhatchaurasiya/DSA_Pratice/DSA/src
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-16 23:42:40.789
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-16 23:42:40.789
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-16 23:42:40.789
+!MESSAGE /Users/prabhatchaurasiya/DSA_Pratice/DSA overlaps the workspace location: /Users/prabhatchaurasiya/DSA_Pratice/DSA/src
+
+!ENTRY org.eclipse.core.resources 4 77 2024-08-16 23:43:40.357
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-08-16 23:43:40.357
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-08-16 23:43:40.357
+!MESSAGE /Users/prabhatchaurasiya/DSA_Pratice/DSA overlaps the workspace location: /Users/prabhatchaurasiya/DSA_Pratice/DSA/src
