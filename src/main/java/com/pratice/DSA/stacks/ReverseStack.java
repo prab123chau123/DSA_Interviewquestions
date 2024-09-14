@@ -1,18 +1,24 @@
 package com.pratice.DSA.stacks;
 
+import java.util.Arrays;
+import java.util.Map;
 import java.util.Stack;
 
 public class ReverseStack {
 
 	public static void main(String args[]) {
 		Stack<Integer> stack = new Stack<>();
-
+		System.out.println(stack);
 		stack.push(1);
 		stack.push(2);
 		stack.push(3);
 		stack.push(4);
 		stack.push(5);
-
+//		while(!stack.isEmpty())
+//		{
+//        System.out.print(stack.pop()+" ");
+//		}
+		System.out.println();
 		reverseStack(stack);
 		while (!stack.isEmpty()) {
 			System.out.print(stack.pop() + " ");
@@ -24,6 +30,7 @@ public class ReverseStack {
 			return;
 		}
 		int top = stack.pop();
+		System.out.println(top);
 		reverseStack(stack);
 		PushAtBottom(stack, top);
 	}
@@ -34,6 +41,7 @@ public class ReverseStack {
 			return;
 		}
 		int data = stack.pop();
+		System.out.print(data+" ");
 		PushAtBottom(stack, top);
 		stack.push(data);
 	}

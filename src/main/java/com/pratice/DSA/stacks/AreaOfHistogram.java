@@ -10,7 +10,7 @@ public class AreaOfHistogram {
 		int maxArea = 0;
 		Stack<Integer> stack = new Stack<>();
 		stack.push(0);
-		for (int i = 0; i < n; i++) {
+		for (int i = 1; i < n; i++) {
 			while (!stack.isEmpty() && arr[stack.peek()] > arr[i]) {
 				int height = arr[stack.pop()];
 				int width = stack.isEmpty() ? i : i - stack.peek() - 1;
